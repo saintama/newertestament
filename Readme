@@ -1,0 +1,3 @@
+Search and replace chapter numbers and firs words that lack space with this regex. E.g. "26And Joseph..." with "26 And Joseph..."
+(\d+)+([A-Z])
+$1 $2
